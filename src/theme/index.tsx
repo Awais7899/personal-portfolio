@@ -10,5 +10,5 @@ export const header = {
       horizontalItemSelectedColor: "#fff",
     },
   },
-  token: { padding: 32, fontSize: 16, fontFamily: "Segoe UI Symbol" },
+  token: { padding: 32, fontSize: 16, fontFamily: "Poppins , sans-serif"},
 };
