@@ -1,8 +1,9 @@
 .IntroContainer {
-  height: 85vh;
+  height: 80vh;
   background-color: #191919;
   display: flex;
   align-items: center;
+  padding: 32px;
 }
 .IntroText {
   color: #fff;
@@ -28,7 +29,7 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 }
 
 @keyframes textclip {
@@ -38,10 +39,10 @@
 }
 
 .ImageContainer {
-    height: 300px;
-    width: auto;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 8px solid transparent; /*2*/
-    background: linear-gradient(180deg, #e70faa, #13b0f5) border-box; /*3*/
-  }
+  height: 300px;
+  width: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 8px solid transparent; /*2*/
+  background: linear-gradient(180deg, #e70faa, #13b0f5) border-box; /*3*/
+}

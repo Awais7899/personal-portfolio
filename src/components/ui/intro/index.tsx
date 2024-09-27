@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./intro.module.css";
-import { Col, Row, Typography, Image } from "antd";
+import { Col, Row, Typography } from "antd";
 import profile from "../../../assets/images/profile.png";
 
 export function Intro(): JSX.Element {
@@ -23,8 +23,15 @@ export function Intro(): JSX.Element {
         </div>
       </Col>
       <Col lg={12} md={24}>
-      <div className={styles.ColumnContainer}>
-        <img src={profile} alt="sadasd" className={styles.ImageContainer} />
+        <div className={styles.ColumnContainer}>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "flex-end",
+            }}
+          >
+            <img src={profile} alt="sadasd" className={styles.ImageContainer} />
+          </div>
         </div>
       </Col>
     </Row>

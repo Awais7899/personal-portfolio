@@ -24,13 +24,14 @@ const items = [
   },
 ];
 
- export const HeaderComponent = () => {
+export const HeaderComponent = () => {
   return (
     <Header
       style={{
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        padding: "32px"
       }}
     >
       <div
@@ -45,7 +46,7 @@ const items = [
         defaultSelectedKeys={["1"]}
         items={items}
         style={{
-          flex: 0.7,
+          flex: 1,
           minWidth: 0,
           justifyContent: "flex-end",
           backgroundColor: "#191919",
@@ -56,5 +57,3 @@ const items = [
     </Header>
   );
 };
-
-
